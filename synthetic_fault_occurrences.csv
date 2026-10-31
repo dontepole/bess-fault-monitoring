@@ -1,0 +1,4 @@
+occurrence_id,site_id,asset_id,fault_name,status,raised_at,cleared_at
+occ-001,site_beta,ess_01,PCS Communication Loss,live,2026-10-30T11:45:00Z,
+occ-002,site_alpha,ess_03,BMS Communication Loss,cleared,2026-10-29T08:10:00Z,2026-10-29T08:22:00Z
+occ-003,site_alpha,ess_03,BMS Communication Loss,cleared,2026-10-29T15:30:00Z,2026-10-29T15:37:00Z

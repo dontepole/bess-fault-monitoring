@@ -1,0 +1,16 @@
+timestamp,site_id,asset_id,expected_racks,racks_in_service,maint_mode,is_faulted,fault_name,max_cell_voltage,soc,status
+2026-10-30T18:00:00Z,site_alpha,ESS01,24,24,false,false,,3.48,67.2,RUNNING
+2026-10-30T18:00:00Z,site_alpha,ESS02,24,21,false,false,,3.52,64.8,RUNNING
+2026-10-30T18:00:00Z,site_beta,ESS01,24,24,false,true,PCS Communication Loss,3.47,71.0,FAULT
+2026-10-30T18:00:00Z,site_beta,ESS02,24,24,true,false,,3.50,69.4,MAINTENANCE
+2026-10-30T18:00:00Z,site_gamma,ESS01,24,24,false,false,,3.64,95.1,RUNNING
+2026-10-30T18:05:00Z,site_alpha,ESS01,24,24,false,false,,3.49,67.0,RUNNING
+2026-10-30T18:05:00Z,site_alpha,ESS02,24,21,false,false,,3.53,64.5,RUNNING
+2026-10-30T18:05:00Z,site_beta,ESS01,24,24,false,true,PCS Communication Loss,3.46,70.8,FAULT
+2026-10-30T18:05:00Z,site_beta,ESS02,24,24,true,false,,3.50,69.2,MAINTENANCE
+2026-10-30T18:05:00Z,site_gamma,ESS01,24,24,false,false,,3.65,95.3,RUNNING
+2026-10-30T18:10:00Z,site_alpha,ESS01,24,24,false,false,,3.49,66.8,RUNNING
+2026-10-30T18:10:00Z,site_alpha,ESS02,24,22,false,false,,3.52,64.1,RUNNING
+2026-10-30T18:10:00Z,site_beta,ESS01,24,24,false,false,,3.45,70.4,RUNNING
+2026-10-30T18:10:00Z,site_beta,ESS02,24,24,true,false,,3.49,69.0,MAINTENANCE
+2026-10-30T18:10:00Z,site_gamma,ESS01,24,24,false,false,,3.66,95.5,RUNNING
