@@ -63,14 +63,6 @@ bess-fault-monitoring/
 └── docs/
 ```
 
-## Example Output
-
-```text
-site_alpha | ESS02 | HEALTH | Reduced Rack Availability
-site_beta  | ESS02 | HEALTH | Maintenance Mode
-site_gamma | ESS01 | HEALTH | High Cell Voltage
-```
-
 A fault can also be classified into operator-friendly categories such as:
 
 - BMS / Cells / Racks
@@ -105,3 +97,28 @@ A fault can also be classified into operator-friendly categories such as:
 ## Portfolio Context
 
 This project is intended to demonstrate how operational domain knowledge can be combined with data analysis and automation to improve technical monitoring and decision support in energy storage environments.
+
+## Sample Output
+
+Example operator-facing alerts generated from the synthetic dataset:
+
+```text
+SITE: site_alpha
+ASSET: ESS02
+TYPE: HEALTH
+ALERT: Reduced Rack Availability
+RACK STATUS: 21/24
+CONCERN: BMS, Cells, Racks, Modules
+
+SITE: site_beta
+ASSET: ESS02
+TYPE: HEALTH
+ALERT: Maintenance Mode
+RACK STATUS: 24/24
+CONCERN: BMS, Cells, Racks, Modules
+
+SITE: site_gamma
+ASSET: ESS01
+TYPE: HEALTH
+ALERT: Cell Voltage > 3.6V
+CONCERN: BMS, Cells, Racks, Modules
