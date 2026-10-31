@@ -29,7 +29,7 @@ The demo currently detects:
 - High cell voltage (> 3.60 V)
 
 ## Architecture
-
+![BESS Fault Monitoring Architecture](3adab2aa-ea63-427f-8aba-257d0120a0f5.png)
 ```text
 Synthetic BESS Telemetry
         |
